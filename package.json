@@ -17,17 +17,9 @@
       "jest --bail --findRelatedTests --passWithNoTests"
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vannizhang/react-redux-boilerplate.git"
-  },
   "keywords": [],
-  "author": "Jinnan Zhang",
+  "author": "Lynn Joseph",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vannizhang/react-redux-boilerplate/issues"
-  },
-  "homepage": "https://github.com/vannizhang/react-redux-boilerplate",
   "devDependencies": {
     "@babel/core": "^7.14.6",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
@@ -88,6 +80,7 @@
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-redux": "^8.0.2",
+    "react-router": "^6.6.1",
     "redux": "^4.1.0"
   },
   "browserslist": [

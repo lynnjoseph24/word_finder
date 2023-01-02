@@ -1,13 +1,19 @@
 import React from 'react';
 import { ErrorBoundary } from '../../components';
+import { MemoryRouter, Route } from 'react-router';
 
 const HomePage = () => {
     return (
         <ErrorBoundary>
-            <h1>React Redux Boilerplate</h1>
-            <p>You can put the components of your app here</p>
+            <MemoryRouter>
+                <Route path="/home" component={HomeChild} />
+            </MemoryRouter>
         </ErrorBoundary>
     );
 };
 
 export default HomePage;
+
+const HomeChild = () => {
+    return <div className="div">SamplePage</div>;
+};
